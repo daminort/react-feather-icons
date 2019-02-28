@@ -15,6 +15,7 @@
   },
   "rules": {
     "space-before-function-paren": 0,
+    "padded-blocks":"off",
     "react/jsx-boolean-value": 0
   }
 }
