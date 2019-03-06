@@ -14,8 +14,15 @@
     "sourceType": "module"
   },
   "rules": {
-    "space-before-function-paren": 0,
+    "no-unused-vars": "warn",
+    "no-tabs": "off",
+    "indent": "off",
+    "space-before-function-paren": "off",
+    "react/jsx-boolean-value": "off",
+    "react/jsx-indent": "off",
+    "react/jsx-indent-props": "off",
     "padded-blocks":"off",
-    "react/jsx-boolean-value": 0
+    "semi":"off",
+    "no-multi-spaces":"off"
   }
 }

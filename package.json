@@ -13,6 +13,7 @@
     "npm": ">=5"
   },
   "scripts": {
+    "create": "node ./feather/convert && npx prettier --write ./src/icons/*",
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
@@ -44,6 +45,7 @@
     "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-standard": "^3.1.0",
     "gh-pages": "^1.2.0",
+    "prettier-miscellaneous": "^1.5.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
