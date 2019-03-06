@@ -5,11 +5,13 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@daminort/react-feather-icons": "file:..",
+    "antd": "^3.14.1",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "@daminort/react-feather-icons": "file:.."
+    "styled-components": "^4.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
