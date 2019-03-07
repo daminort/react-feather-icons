@@ -9,12 +9,15 @@ class IconBox extends Component {
   }
   
   render () {
-    const { name } = this.props;
+    const { name, ...restProps } = this.props;
 
     return (
       <div className="box">
         <div className="icon">
-          <Icon name={name} />
+          <Icon 
+            name={name}
+            {...restProps}
+          />
         </div>
         {<div className="title">{name}</div>}
       </div>

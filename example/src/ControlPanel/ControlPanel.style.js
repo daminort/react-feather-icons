@@ -1,23 +1,48 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  display: flex;
   padding: 8px 0px;
   width: 100%;
 
-  .sliders {
-    width: 25%;
+  h4 {
+    font-weight: bold;
+    color: rgb(102, 102, 102);
   }
 
-  .strokes {
-    width: 25%;
-  }
+  .blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 
-  .colors {
-    width: 25%;
-  }
+    .row {
+      height: 40px;
+      display: flex;
+      align-items: center;
+    }
 
-  .preview {
-    width: 25%;
+    .settings {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 75%;
+      padding-left: 16px;
+
+      .sliders {
+        min-width: 30%;
+      }
+
+      .switchers {
+        min-width: 30%;
+      }
+
+      .colors {
+        min-width: 30%;
+      }
+    }
+
+    .preview {
+      width: 25%;
+    }
   }
 `;
