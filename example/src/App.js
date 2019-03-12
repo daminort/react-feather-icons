@@ -1,9 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { iconNames } from '@daminort/react-feather-icons';
 
-import ControlPanel from './ControlPanel';
-import Icons from './Icons';
+import TopBar from './containers/TopBar';
+import ControlPanel from './containers/ControlPanel';
+import Icons from './containers/Icons';
+import Preview from './containers/Preview';
+import Code from './containers/Code';
 
 import { Provider, initState } from './context';
+import { Wrapper } from './App.style';
 
 class App extends Component {
 
@@ -11,6 +16,12 @@ class App extends Component {
     super(props);
     this.onChange = this.onChange.bind(this);
     this.state    = initState;
+  }
+
+  componentDidMount() {
+    this.setState({
+      selectedIcon: iconNames[0],
+    });
   }
   
   onChange({ name, value }) {
@@ -28,10 +39,17 @@ class App extends Component {
 
     return (
       <Provider value={contextValue}>
-        <div className="page">
-          <ControlPanel />
-          <Icons />
-        </div>
+        <Wrapper>
+          <div className="left">
+            <div className="top-bar"><TopBar /></div>
+            <div className="content"><Icons /></div>
+          </div>
+          <div className="right">
+            <div className="preview"><Preview /></div>
+            <div className="settings"><ControlPanel /></div>
+            <div className="code"><Code /></div>
+          </div>
+        </Wrapper>
       </Provider>
     )
   }

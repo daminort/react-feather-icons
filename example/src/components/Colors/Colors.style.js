@@ -6,10 +6,11 @@ export const Wrapper = styled.div`
   width: 100%;
 
   .label {
-    width: 20%;
+    width: 40%;
   }
 
   input {
+    min-width: calc(60% - 52px);
     border: 1px solid rgb(221, 221, 221);
     border-radius: 4px;
     padding: 1px 4px;

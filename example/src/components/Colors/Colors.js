@@ -6,7 +6,6 @@ import { Wrapper } from './Colors.style';
 
 const Colors = (props) => {
   const { name, value, onChange } = props;
-  const px = `${value}px`;
 
   return (
     <Wrapper>

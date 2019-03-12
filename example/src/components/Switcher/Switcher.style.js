@@ -6,11 +6,12 @@ export const Wrapper = styled.div`
   width: 100%;
 
   .label {
-    width: 20%;
+    width: 40%;
   }
 
   .buttons {
     display: flex;
+    width: 60%;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(221, 221, 221);

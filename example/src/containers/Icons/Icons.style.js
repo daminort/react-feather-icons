@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  padding: 16px 40px;
+  padding: 16px 0px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -14,10 +14,16 @@ export const Wrapper = styled.div`
     cursor: pointer;
     border: 1px solid transparent;
     border-radius: 8px;
-    transition: all 0.3s linear;
+    transition: all 0.25s linear;
 
     .title {
       display: none;
+      position: absolute;
+      left: 25%;
+      right: 25%;
+      bottom: -24px;
+      justify-content: center;
+      align-items: center;
     }
 
     .icon {
@@ -33,13 +39,18 @@ export const Wrapper = styled.div`
       border: 1px solid #ccc;
 
       .title {
-        position: absolute;
-        left: 25%;
-        right: 25%;
-        bottom: -24px;
         display: flex;
-        justify-content: center;
-        align-items: center;
+      }
+    }
+
+    &.active {
+      border: 1px solid rgb(112, 189, 251);
+      transform: scale(1.04);
+      box-shadow: transparent 0px 0px 0px 2px;
+      background-color: rgb(243, 249, 253);
+
+      .title {
+        display: flex;
       }
     }
   }
