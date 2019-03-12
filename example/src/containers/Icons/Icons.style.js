@@ -1,15 +1,34 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  padding: 16px 0px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
+  padding: 8px 16px;
+
+  .unordered {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .ordered {
+    display: block;
+
+    .group {
+      display: block;
+      margin-bottom: 16px;
+
+      .icons {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    }
+  }
 
   .box {
     position: relative;
-    margin: 8px 16px 16px 16px;
+    margin: 8px 4px 16px 4px;
     padding: 4px;
     cursor: pointer;
     border: 1px solid transparent;

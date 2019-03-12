@@ -29,9 +29,9 @@ class ControlPanel extends Component {
           <Slider
             name="thickness"
             label="Thickness"
-            min={1}
-            max={8}
-            step={1}
+            min={0.5}
+            max={4}
+            step={0.5}
             value={thickness}
             onChange={onChangeValue}
           />

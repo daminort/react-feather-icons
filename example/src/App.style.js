@@ -16,13 +16,13 @@ export const Wrapper = styled.div`
     .content {
       width: 100%;
       height: calc(100vh - 100px);
-      overflow-y: scroll !important;
+      overflow-y: auto !important;
     }
   }
 
   .right {
     display: block;
-    overflow-y: scroll !important;
+    overflow-y: auto !important;
     width: 30%;
     min-width: 360px;
     height: 100vh;
