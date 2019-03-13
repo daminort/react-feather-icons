@@ -22,6 +22,7 @@ export const Wrapper = styled.div`
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
+        padding-left: 16px;
       }
     }
   }
