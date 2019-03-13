@@ -39,12 +39,11 @@ export const groups = {
     'download',
     'uploadCloud',
     'downloadCloud',
-    'minimize',
-    'maximize',
     'trendingDown',
     'trendingUp',
     'shuffle',
     'move',
+    'minimize2',
     'maximize2',
     'externalLink',
   ],
@@ -106,9 +105,9 @@ export const groups = {
     'unlock',
     'shoppingBag',
     'shoppingCart',
-    'mapMarker1',
-    'mapMarker2',
-    'mapMarker3',
+    //'mapMarker1',
+    //'mapMarker2',
+    //'mapMarker3',
   ],
   'Media': [
     'play',
@@ -133,4 +132,118 @@ export const groups = {
     'image',
     'radio',
   ],
+  'Files & Folders': [
+    'file',
+    'fileText',
+    'filePlus',
+    'fileMinus',
+    //'fileX',
+    //'filePlus2',
+    //'fileMinus2',
+    //'fileX2',
+    'folder',
+    'folderPlus',
+    'folderMinus',
+    //'folderX',
+    //'folderPlus2',
+    //'folderMinus2',
+    //'folderX2',
+  ],
+  'Editor': [
+    'bold',
+    'underline',
+    'italic',
+    //'strikethrough',
+    'type',
+    'alignLeft',
+    'alignCenter',
+    'alignRight',
+    'alignJustify',
+    //'table',
+    //'table2',
+    'list',
+    'save',
+    'scissors',
+    'copy',
+    'clipboard',
+    'code',
+    'link',
+    'paperclip',
+    'remove',
+  ],
+  'Symbols & Shapes': [
+    'atSign',
+    'percent',
+    'dollarSign',
+    'bluetooth',
+    'hash',
+    'power',
+    'command',
+    'rss',
+    'airplay',
+    'cast',
+    'wifi',
+  ],
+  'Users': [
+    'user',
+    'userCheck',
+    'userMinus',
+    'userPlus',
+    'userX',
+    'users',
+    //'userCircle',
+  ],
+  'Graphs & Charts': [
+    'barChart',
+    'barChart2',
+    //'barChart3',
+    //'barChart4',
+    'pieChart',
+    //'pieChart2',
+    //'pieChart3',
+    //'pieChart4',
+    //'pieChart5',
+    //'lineChart',
+    //'lineChart2',
+  ],
 };
+
+/**
+ * Missed icons:
+ * 
+ * Arrows:
+ * expand
+ * 
+ * Interface:
+ * map-marker-1
+ * map-marker-2
+ * map-marker-3
+ * 
+ * Files & Folders:
+ * file-x
+ * file-plus-2
+ * file-minus-2
+ * file-x-2
+ * folder-x
+ * folder-plus-2
+ * folder-minus-2
+ * folder-x-2
+ * 
+ * Editor:
+ * strikethrough
+ * table
+ * table2
+ * 
+ * Users:
+ * userCircle
+ * 
+ * Graphs & Charts:
+ * bar-chart-3
+ * bar-chart-4
+ * pie-chart-2
+ * pie-chart-3
+ * pie-chart-4
+ * pie-chart-5
+ * line-chart
+ * line-chart-2
+ */
