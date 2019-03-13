@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
 
     .links {
       margin-left: 16px;
-      min-width: 130px;
+      min-width: 240px;
       display: flex;
       align-items: center;
       justify-content: space-between;

@@ -19,9 +19,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({
-      selectedIcon: iconNames[0],
-    });
+    const selectedIcon = iconNames.includes('arrowUp') ? 'arrowUp' : iconNames[0];
+    this.setState({ selectedIcon });
   }
   
   onChange({ name, value }) {
