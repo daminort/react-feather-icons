@@ -64,23 +64,25 @@ class Icons extends PureComponent {
     });
 
     const othersNames = iconNames.filter(name => !usedIcons.includes(name));
-    const othersIcons = othersNames.map(name => {
-      return (
-        <IconBox
-          key={name}
-          name={name}
-          active={name === selectedIcon}
-          onClick={() => onChangeValue({ name: 'selectedIcon', value: name })}
-        />
-      );
-    });
+    if (othersNames.length > 0) {
+      const othersIcons = othersNames.map(name => {
+        return (
+          <IconBox
+            key={name}
+            name={name}
+            active={name === selectedIcon}
+            onClick={() => onChangeValue({ name: 'selectedIcon', value: name })}
+          />
+        );
+      });
 
-    result.push((
-      <div className="group" key="others">
-        <h4>Others</h4>
-        <div className="icons">{othersIcons}</div>
-      </div>
-    ));
+      result.push((
+        <div className="group" key="others">
+          <h4>Others</h4>
+          <div className="icons">{othersIcons}</div>
+        </div>
+      ));
+    }
 
     return (
       <div className="ordered">{result}</div>
