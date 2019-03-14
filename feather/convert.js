@@ -113,6 +113,12 @@ function createIndex(icons) {
 `;
   });
 
+  // custom icons
+  result +=
+`
+import customIcons from '../customIcons';
+`;
+
   // init
   result +=
 `
@@ -124,6 +130,12 @@ const icons = {`;
 `  ${iconName},
 `;
   });
+
+  // custom icons
+  result +=
+`
+    ...customIcons,
+`;
 
   // exports
   result +=

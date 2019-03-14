@@ -275,6 +275,8 @@ import zap from './zap';
 import zoomIn from './zoomIn';
 import zoomOut from './zoomOut';
 
+import customIcons from '../customIcons';
+
 const icons = {
 	activity,
 	airplay,
@@ -552,6 +554,8 @@ const icons = {
 	zap,
 	zoomIn,
 	zoomOut,
+
+	...customIcons,
 };
 
 export default icons;
