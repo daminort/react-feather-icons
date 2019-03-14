@@ -30,7 +30,7 @@ class TopBar extends PureComponent {
               <div className="links">
                 <a href="https://github.com/daminort/react-feather-icons">GitHub</a>
                 <a href="https://iconsvg.xyz" target="_blank">iconsvg.xyz</a>
-                <a href="https://feathericons.com">Feather Icons</a>
+                <a href="https://feathericons.com" target="_blank">Feather Icons</a>
               </div>
             </div>
             <div className="bottom">
