@@ -29,8 +29,8 @@ class TopBar extends PureComponent {
               {this.renderSearch(props)}
               <div className="links">
                 <a href="https://github.com/daminort/react-feather-icons">GitHub</a>
-                <a href="https://iconsvg.xyz" target="_blank">iconsvg.xyz</a>
-                <a href="https://feathericons.com" target="_blank">Feather Icons</a>
+                <a href="https://iconsvg.xyz" target="_blank" rel="noopener_noreferrer">iconsvg.xyz</a>
+                <a href="https://feathericons.com" target="_blank" rel="noopener_noreferrer">Feather Icons</a>
               </div>
             </div>
             <div className="bottom">
