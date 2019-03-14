@@ -8547,7 +8547,838 @@ var zoomOut = function zoomOut(props) {
 zoomOut.propTypes = propTypes;
 zoomOut.defaultProps = defaultProps;
 
-var icons = {
+var barChart3 = function barChart3(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-bar-\u0441hart-3 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M12 20V10M6 20V4M18 20v-4' })
+	);
+};
+
+barChart3.propTypes = propTypes;
+barChart3.defaultProps = defaultProps;
+
+var barChart4 = function barChart4(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-bar-\u0441hart-4 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M12 20v-6M6 20V10M18 20V4' })
+	);
+};
+
+barChart4.propTypes = propTypes;
+barChart4.defaultProps = defaultProps;
+
+var expand = function expand(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-expand ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M3.8 3.8l16.4 16.4M20.2 3.8L3.8 20.2M15 3h6v6M9 3H3v6M15 21h6v-6M9 21H3v-6' })
+	);
+};
+
+expand.propTypes = propTypes;
+expand.defaultProps = defaultProps;
+
+var fileMinus2 = function fileMinus2(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-file-minus-2 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M20 11.08V8l-6-6H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h6' }),
+		React.createElement('path', { d: 'M14 3v5h5M15 18h6' })
+	);
+};
+
+fileMinus2.propTypes = propTypes;
+fileMinus2.defaultProps = defaultProps;
+
+var filePlus2 = function filePlus2(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-file-plus-2 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M20 11.08V8l-6-6H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h6' }),
+		React.createElement('path', { d: 'M14 3v5h5M18 21v-6M15 18h6' })
+	);
+};
+
+filePlus2.propTypes = propTypes;
+filePlus2.defaultProps = defaultProps;
+
+var fileX = function fileX(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-file-x ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z' }),
+		React.createElement('path', { d: 'M14 3v5h5M9.9 17.1L14 13M9.9 12.9L14 17' })
+	);
+};
+
+fileX.propTypes = propTypes;
+fileX.defaultProps = defaultProps;
+
+var fileX2 = function fileX2(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-file-x-2 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M20 11.08V8l-6-6H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h6' }),
+		React.createElement('path', { d: 'M14 3v5h5M15.88 20.12l4.24-4.24M15.88 15.88l4.24 4.24' })
+	);
+};
+
+fileX2.propTypes = propTypes;
+fileX2.defaultProps = defaultProps;
+
+var folderMinus2 = function folderMinus2(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-folder-minus-2 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M11 21H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h5l2 3h9a2 2 0 0 1 2 2v2M16 18h6' })
+	);
+};
+
+folderMinus2.propTypes = propTypes;
+folderMinus2.defaultProps = defaultProps;
+
+var folderPlus2 = function folderPlus2(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-folder-plus-2 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M11 21H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h5l2 3h9a2 2 0 0 1 2 2v2M19 15v6M16 18h6' })
+	);
+};
+
+folderPlus2.propTypes = propTypes;
+folderPlus2.defaultProps = defaultProps;
+
+var folderX = function folderX(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-folder-x ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h5l2 3h9a2 2 0 0 1 2 2v11zM9.9 16.1L14 12M9.9 11.9L14 16' })
+	);
+};
+
+folderX.propTypes = propTypes;
+folderX.defaultProps = defaultProps;
+
+var folderX2 = function folderX2(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-folder-x-2 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M11 21H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h5l2 3h9a2 2 0 0 1 2 2v2M21.12 15.88l-4.24 4.24M16.88 15.88l4.24 4.24' })
+	);
+};
+
+folderX2.propTypes = propTypes;
+folderX2.defaultProps = defaultProps;
+
+var layout2 = function layout2(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-layout-2 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('rect', { x: '3', y: '3', width: '18', height: '18', rx: '2' }),
+		React.createElement('path', { d: 'M3 9h18M15 21V9' })
+	);
+};
+
+layout2.propTypes = propTypes;
+layout2.defaultProps = defaultProps;
+
+var layout3 = function layout3(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-layout-3 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('rect', { x: '3', y: '3', width: '18', height: '18', rx: '2' }),
+		React.createElement('path', { d: 'M3 9h18' })
+	);
+};
+
+layout3.propTypes = propTypes;
+layout3.defaultProps = defaultProps;
+
+var layout4 = function layout4(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-layout-4 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('rect', { x: '3', y: '3', width: '18', height: '18', rx: '2' }),
+		React.createElement('path', { d: 'M3 15h18' })
+	);
+};
+
+layout4.propTypes = propTypes;
+layout4.defaultProps = defaultProps;
+
+var layout5 = function layout5(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-layout-5 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('rect', { x: '3', y: '3', width: '18', height: '18', rx: '2' }),
+		React.createElement('path', { d: 'M15 3v18' })
+	);
+};
+
+layout5.propTypes = propTypes;
+layout5.defaultProps = defaultProps;
+
+var lineChart = function lineChart(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-line-chart ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M3 3v18h18' }),
+		React.createElement('path', { d: 'M18.7 8l-5.1 5.2-2.8-2.7L7 14.3' })
+	);
+};
+
+lineChart.propTypes = propTypes;
+lineChart.defaultProps = defaultProps;
+
+var lineChart2 = function lineChart2(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-line-chart-2 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M3 3v18h18' }),
+		React.createElement('path', { d: 'M18.7 14.3L15 10.5l-2.7 2.7L7 8' })
+	);
+};
+
+lineChart2.propTypes = propTypes;
+lineChart2.defaultProps = defaultProps;
+
+var mapPin2 = function mapPin2(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-map-pin-2 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('circle', { cx: '12', cy: '10', r: '3' }),
+		React.createElement('path', { d: 'M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z' })
+	);
+};
+
+mapPin2.propTypes = propTypes;
+mapPin2.defaultProps = defaultProps;
+
+var mapPin3 = function mapPin3(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-map-pin-3 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('circle', { cx: '11.5', cy: '8.5', r: '5.5' }),
+		React.createElement('path', { d: 'M11.5 14v7' })
+	);
+};
+
+mapPin3.propTypes = propTypes;
+mapPin3.defaultProps = defaultProps;
+
+var pieChart2 = function pieChart2(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-pie-\u0441hart-2 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M12 2a10 10 0 1 0 10 10H12V2zM21.18 8.02c-1-2.3-2.85-4.17-5.16-5.18' })
+	);
+};
+
+pieChart2.propTypes = propTypes;
+pieChart2.defaultProps = defaultProps;
+
+var pieChart3 = function pieChart3(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-pie-\u0441hart-3 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20z' }),
+		React.createElement('path', { d: 'M19 6l-7 6V2.5' })
+	);
+};
+
+pieChart3.propTypes = propTypes;
+pieChart3.defaultProps = defaultProps;
+
+var pieChart4 = function pieChart4(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-pie-\u0441hart-4 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M21.5 12H12V2.5' }),
+		React.createElement('circle', { cx: '12', cy: '12', r: '10' })
+	);
+};
+
+pieChart4.propTypes = propTypes;
+pieChart4.defaultProps = defaultProps;
+
+var pieChart5 = function pieChart5(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-pie-\u0441hart-5 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M18.6 18.6L12 12V2.5' }),
+		React.createElement('circle', { cx: '12', cy: '12', r: '10' })
+	);
+};
+
+pieChart5.propTypes = propTypes;
+pieChart5.defaultProps = defaultProps;
+
+var strikethrough = function strikethrough(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-strikethrough ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M17.3 4.9c-2.3-.6-4.4-1-6.2-.9-2.7 0-5.3.7-5.3 3.6 0 1.5 1.8 3.3 3.6 3.9h.2m8.2 3.7c.3.4.4.8.4 1.3 0 2.9-2.7 3.6-6.2 3.6-2.3 0-4.4-.3-6.2-.9M4 11.5h16' })
+	);
+};
+
+strikethrough.propTypes = propTypes;
+strikethrough.defaultProps = defaultProps;
+
+var table = function table(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-table ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('rect', { x: '3', y: '3', width: '18', height: '18', rx: '2' }),
+		React.createElement('path', { d: 'M21 12H3M12 3v18' })
+	);
+};
+
+table.propTypes = propTypes;
+table.defaultProps = defaultProps;
+
+var table2 = function table2(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-table-2 ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M3 3h18v18H3zM21 9H3M21 15H3M12 3v18' })
+	);
+};
+
+table2.propTypes = propTypes;
+table2.defaultProps = defaultProps;
+
+var userCircle = function userCircle(props) {
+	var size = props.size,
+	    color = props.color,
+	    thickness = props.thickness,
+	    ends = props.ends,
+	    joins = props.joins,
+	    className = props.className,
+	    restProps = objectWithoutProperties(props, ['size', 'color', 'thickness', 'ends', 'joins', 'className']);
+
+	var iconClassName = 'feather feather-user-\u0441ircle ' + (className || '');
+
+	return React.createElement(
+		'svg',
+		_extends({}, svgProps, {
+			width: size,
+			height: size,
+			stroke: color,
+			strokeWidth: thickness,
+			strokeLinecap: ends,
+			strokeLinejoin: joins,
+			className: iconClassName
+		}, restProps),
+		React.createElement('path', { d: 'M5.52 19c.64-2.2 1.84-3 3.22-3h6.52c1.38 0 2.58.8 3.22 3' }),
+		React.createElement('circle', { cx: '12', cy: '10', r: '3' }),
+		React.createElement('circle', { cx: '12', cy: '12', r: '10' })
+	);
+};
+
+userCircle.propTypes = propTypes;
+userCircle.defaultProps = defaultProps;
+
+var customIcons = {
+  barChart3: barChart3,
+  barChart4: barChart4,
+  expand: expand,
+  fileMinus2: fileMinus2,
+  filePlus2: filePlus2,
+  fileX: fileX,
+  fileX2: fileX2,
+  folderMinus2: folderMinus2,
+  folderPlus2: folderPlus2,
+  folderX: folderX,
+  folderX2: folderX2,
+  layout2: layout2,
+  layout3: layout3,
+  layout4: layout4,
+  layout5: layout5,
+  lineChart: lineChart,
+  lineChart2: lineChart2,
+  mapPin2: mapPin2,
+  mapPin3: mapPin3,
+  pieChart2: pieChart2,
+  pieChart3: pieChart3,
+  pieChart4: pieChart4,
+  pieChart5: pieChart5,
+  strikethrough: strikethrough,
+  table: table,
+  table2: table2,
+  userCircle: userCircle
+};
+
+var icons = _extends({
 	activity: activity,
 	airplay: airplay,
 	alertCircle: alertCircle,
@@ -8824,7 +9655,8 @@ var icons = {
 	zap: zap,
 	zoomIn: zoomIn,
 	zoomOut: zoomOut
-};
+
+}, customIcons);
 
 var Icon = function Icon(props) {
   var name = props.name,

@@ -43,6 +43,7 @@ export const groups = {
     'trendingUp',
     'shuffle',
     'move',
+    'expand',
     'minimize2',
     'maximize2',
     'externalLink',
@@ -121,9 +122,8 @@ export const groups = {
     'navigation',
     'navigation2',
     'mapPin',
-    //'mapMarker1',
-    //'mapMarker2',
-    //'mapMarker3',
+    'mapPin2',
+    'mapPin3',
     'toggleLeft',
     'toggleRight',
   ],
@@ -159,30 +159,30 @@ export const groups = {
     'fileText',
     'filePlus',
     'fileMinus',
-    //'fileX',
-    //'filePlus2',
-    //'fileMinus2',
-    //'fileX2',
+    'fileX',
+    'filePlus2',
+    'fileMinus2',
+    'fileX2',
     'folder',
     'folderPlus',
     'folderMinus',
-    //'folderX',
-    //'folderPlus2',
-    //'folderMinus2',
-    //'folderX2',
+    'folderX',
+    'folderPlus2',
+    'folderMinus2',
+    'folderX2',
   ],
   'Editor': [
     'bold',
     'underline',
     'italic',
-    //'strikethrough',
+    'strikethrough',
     'type',
     'alignLeft',
     'alignCenter',
     'alignRight',
     'alignJustify',
-    //'table',
-    //'table2',
+    'table',
+    'table2',
     'list',
     'save',
     'scissors',
@@ -218,21 +218,21 @@ export const groups = {
     'userPlus',
     'userX',
     'users',
-    //'userCircle',
+    'userCircle',
   ],
   'Graphs & Charts': [
     'activity',
     'barChart',
     'barChart2',
-    //'barChart3',
-    //'barChart4',
+    'barChart3',
+    'barChart4',
     'pieChart',
-    //'pieChart2',
-    //'pieChart3',
-    //'pieChart4',
-    //'pieChart5',
-    //'lineChart',
-    //'lineChart2',
+    'pieChart2',
+    'pieChart3',
+    'pieChart4',
+    'pieChart5',
+    'lineChart',
+    'lineChart2',
   ],
   'Devices': [
     'monitor',
@@ -282,13 +282,12 @@ export const groups = {
   ],
   'Layouts': [
     'layers',
-    'sidebar',
     'layout',
-    //'layout2',
-    //'layout3',
-    //'layout4',
-    //'layout5',
-    //'layout6',
+    'layout2',
+    'layout3',
+    'layout4',
+    'sidebar',
+    'layout5',
   ],
   'Objects': [
     'cloud',
@@ -328,50 +327,3 @@ export const groups = {
     'wind',
   ],
 };
-
-/**
- * Missed icons:
- * 
- * Arrows:
- * expand
- * 
- * Interface:
- * map-marker-1
- * map-marker-2
- * map-marker-3
- * 
- * Files & Folders:
- * file-x
- * file-plus-2
- * file-minus-2
- * file-x-2
- * folder-x
- * folder-plus-2
- * folder-minus-2
- * folder-x-2
- * 
- * Editor:
- * strikethrough
- * table
- * table2
- * 
- * Users:
- * userCircle
- * 
- * Graphs & Charts:
- * bar-chart-3
- * bar-chart-4
- * pie-chart-2
- * pie-chart-3
- * pie-chart-4
- * pie-chart-5
- * line-chart
- * line-chart-2
- * 
- * Layouts:
- * layout-2
- * layout-3
- * layout-4
- * layout-5
- * layout-6
- */
